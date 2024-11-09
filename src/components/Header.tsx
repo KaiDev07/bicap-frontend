@@ -25,6 +25,17 @@ export default function Header() {
                     <Link href="/">NomadTravel</Link>
                     <div className="header-links">
                         <div className="header-link">
+                            <div className="header-link-inner">
+                                <Link href="/tours">
+                                    <Image
+                                        src="/assets/images/tours.png"
+                                        alt="icon"
+                                        fill
+                                    />
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="header-link">
                             <Link href="/favorites">
                                 <Image
                                     src="/assets/images/heart.svg"
